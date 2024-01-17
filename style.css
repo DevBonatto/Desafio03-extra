@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #BFD7E4;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 456px;
+  width: 100%;
+  background-color: #293241;
+}
+
+h1 {
+  padding-top: 107px;
+  color: #FFF;
+
+  font-family: Staatliches;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+p {
+  color: #FFF;
+
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+h2 {
+  color: #FFF;
+
+  font-family: Staatliches;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px; 
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 32px;
+  height: 133px;
+  width: 750px;
+
+  background-color: #F67669;
+
+  border-radius: 8px 8px 0 0;
+}
+
+.page {
+  width: 750px;
+  height: 100%;
+}
+
+form {
+  background-color: #FFF;
+  height: 1075px;
+
+  margin-bottom: 50px;
+
+  padding: 0 64px;
+}
+
+
+fieldset {
+  width: 100%;
+  border: none;
+}
+
+.names {
+  display: flex;
+  gap: 22px;
+
+  width: 100%;
+  margin-top: 30px
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.name input {
+  height: 55px;
+  margin-top: 8px;
+  
+  border-radius: 8px;
+  border: 1px solid var(--Back-Lines-in-white, #E6E6F0);
+  background: var(--Shapes-02, #FAFAFC);
+
+  font-family: "Poppins", sans-serif;
+
+  padding: 0px 12px;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  margin-top: 15px;
+}
+
+span {
+  color: #C1BCCC;
+
+  font-family: Poppins;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+span:hover {
+  color: #000;
+}
+
+.email input {
+  height: 55px;
+  margin-top: 8px;
+  
+  border-radius: 8px;
+  border: 1px solid var(--Back-Lines-in-white, #E6E6F0);
+  background: var(--Shapes-02, #FAFAFC);
+
+  font-family: "Poppins", sans-serif;
+
+  padding: 0px 12px;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 31px;
+
+  color: #253B51;
+
+  font-family: Staatliches;
+  font-size: 24px;
+
+  border-bottom: #E6E6F0 solid 1px;
+  padding-bottom: 7px;
+}
+
+.mentor {
+  display: flex;
+  flex-direction: column;
+  margin-top: 31px;
+
+  width: 50%;
+}
+
+.mentor select {
+  height: 55px;
+
+  border-radius: 8px;
+  border: 1px solid var(--Back-Lines-in-white, #E6E6F0);
+  background: var(--Shapes-02, #FAFAFC);
+  font-family: "Poppins", sans-serif;
+  
+  margin-top: 8px;
+  padding: 0px 12px;
+
+}
+
+.feedback {
+  display: flex;
+  flex-direction: column;
+  margin-top: 31px;
+}
+
+.feedback input {
+  height: 168px;
+
+  border-radius: 8px;
+  border: 1px solid var(--Back-Lines-in-white, #E6E6F0);
+  background: var(--Shapes-02, #FAFAFC);
+  font-family: "Poppins", sans-serif;
+  
+  padding: 0px 12px;
+  margin-top: 8px;
+}
+
+.checkbox {
+  display: flex;
+
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+
+  gap: 8px;
+  margin-top: 30px
+}
+
+.checkbox input {
+  width: 24px;
+  height: 23.798px;
+
+  fill: #FAFAFC;
+  stroke-width: 1px;
+  stroke: #E6E6F0;
+
+  border-radius: 16px
+}
+
+.date {
+  display: flex;
+  gap: 28px;
+
+  margin-top: 33px;
+}
+
+.input-date {
+  display: flex;
+  flex-direction: column;
+
+  width: 50%;
+}
+
+.input-time {
+  display: flex;
+  flex-direction: column;
+  
+  width: 25%;
+}
+
+.input-date input {
+  height: 55px;
+
+  font-family: "Poppins", sans-serif;
+  padding: 0 12px;
+
+  margin-top: 9px;
+  border-radius: 8px;
+  border: 1px solid var(--Back-Lines-in-white, #E6E6F0);
+  background: var(--Shapes-02, #FAFAFC);
+}
+
+.input-time input {
+  height: 55px;
+
+  font-family: "Poppins", sans-serif;
+  padding: 0 12px;
+
+  margin-top: 9px;
+  border-radius: 8px;
+  border: 1px solid var(--Back-Lines-in-white, #E6E6F0);
+  background: var(--Shapes-02, #FAFAFC);
+}
+
+button {
+  width: 100%;
+  display: flex;
+  height: 51px;
+  padding: 15px 40px;
+  justify-content: center;
+  align-items: center;
+
+  border: none;
+  border-radius: 8px;
+  background: #F67669;
+
+  margin-top: 63px;
+
+  color: #FFF;
+  font-family: Staatliches;
+  font-size: 20px;
+}
+
+button:hover {
+  background: #f51e07;
+}
